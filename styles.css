@@ -134,19 +134,23 @@ hr {
 }
 
 .icons {
-   display: flex;
-   justify-content: center;
-   margin-top: 4em;
+   margin: 4em;
 }
 
 footer {
+   display: flex;
+justify-content: center;
    height: 160px;
+   background-color: #EDF7FA;
+}
+
+.formulario{
+   padding: 200px;
+   display: flex;
+   justify-content: center;
 }
 
 @media (max-width: 599px) {
-   .main {
-      grid-template-columns: 1fr;
-   }
 
 
    #header{
@@ -168,5 +172,4 @@ footer {
    hr{
       width: 300px;
    }
- 
 }
